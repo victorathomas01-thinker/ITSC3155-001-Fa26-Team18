@@ -46,3 +46,18 @@ jobs:
           assert client.get("/docs").status_code == 200
           print("Starter API smoke test passed")
           PY
+      - name: Launch Uvicorn server and test live HTTP endpoints
+        run: |
+          uvicorn api.main:app --host 127.0.0.1 --port 8000 > /tmp/oros-uvicorn.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:8000/docs >/dev/null; then
+              break
+            fi
+            sleep 1
+          done
+          curl --fail --silent --show-error http://127.0.0.1:8000/docs > /dev/null
+          curl --fail --silent --show-error http://127.0.0.1:8000/openapi.json > /dev/null
+          curl --fail --silent --show-error http://127.0.0.1:8000/orders/ > /dev/null
+          echo "Live Uvicorn smoke test passed"
