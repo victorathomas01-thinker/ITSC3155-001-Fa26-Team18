@@ -1,0 +1,48 @@
+name: API smoke tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: rootroot
+          MYSQL_DATABASE: sandwich_maker_api
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping -h 127.0.0.1 -uroot -prootroot"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=10
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install project dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run instructor-provided sample tests
+        run: python -m pytest -q
+      - name: Verify FastAPI OpenAPI and Swagger routes
+        run: |
+          python - <<'PY'
+          from fastapi.testclient import TestClient
+          from api.main import app
+          client = TestClient(app)
+          response = client.get("/openapi.json")
+          assert response.status_code == 200, response.text
+          paths = response.json()["paths"]
+          assert "/orders/" in paths, paths
+          assert "/orderdetails/" in paths, paths
+          assert client.get("/docs").status_code == 200
+          print("Starter API smoke test passed")
+          PY
