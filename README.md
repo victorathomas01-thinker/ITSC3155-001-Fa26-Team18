@@ -61,7 +61,7 @@ A [GitHub Actions smoke test](.github/workflows/ci.yml) also starts a disposable
 
 ## Project planning
 
-See [requirements traceability](docs/REQUIREMENTS_TRACEABILITY.md) for a quick map to all eight staff and seven customer functionality questions. The separately prepared submission workbooks are `Team18_Product_Backlog.xlsx` and `Team18_User_Stories.xlsx`.
+See [requirements traceability](docs/REQUIREMENTS_TRACEABILITY.md) for all eight staff and seven customer functionality questions. The filled professor-template spreadsheets are supplied separately for Canvas submission; GitHub-readable versions are in [Product Backlog](docs/PRODUCT_BACKLOG.md) and [User Stories with Acceptance Criteria](docs/USER_STORIES.md). Priorities, story points and sprint assignments are draft estimates until approved by the group.
 
 **Important:** The starter skeleton is not the completed restaurant API. The backlog and user stories describe work the group still needs to implement.
 
