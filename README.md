@@ -70,3 +70,5 @@ See [requirements traceability](docs/REQUIREMENTS_TRACEABILITY.md) for all eight
 The repository owner should invite group members, the professor and TAs at **Settings → Collaborators and teams → Add people**, using the GitHub usernames supplied by the course. Invited members must accept their invitations. Each member should clone the repository and make their own commits.
 
 Use conventional commit messages, such as `feat: add menu CRUD`, `test: cover guest orders`, and `docs: clarify API examples`.
+
+## Setup verified by Martha Corona-Carballo
