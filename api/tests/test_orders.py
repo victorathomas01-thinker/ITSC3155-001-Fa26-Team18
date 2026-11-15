@@ -1,11 +1,7 @@
-from fastapi.testclient import TestClient
-from ..controllers import orders as controller
-from ..main import app
 import pytest
-from ..models import orders as model
-
-# Create a test client for the app
-client = TestClient(app)
+from ..controllers import orders as controller
+from ..models import model_loader  # Registers related models for ORM mapper setup.
+from ..schemas.orders import OrderCreate
 
 
 @pytest.fixture
@@ -20,7 +16,7 @@ def test_create_order(db_session):
         "description": "Test order"
     }
 
-    order_object = model.Order(**order_data)
+    order_object = OrderCreate(**order_data)
 
     # Call the create function
     created_order = controller.create(db_session, order_object)
