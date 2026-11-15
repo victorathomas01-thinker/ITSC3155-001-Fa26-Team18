@@ -61,13 +61,13 @@ A [GitHub Actions smoke test](.github/workflows/ci.yml) also starts a disposable
 
 ## Project planning
 
-See [requirements traceability](docs/REQUIREMENTS_TRACEABILITY.md) for all eight staff and seven customer functionality questions. The filled professor-template spreadsheets are supplied separately for Canvas submission; GitHub-readable versions are in [Product Backlog](docs/PRODUCT_BACKLOG.md) and [User Stories with Acceptance Criteria](docs/USER_STORIES.md). Priorities, story points and sprint assignments are draft estimates until approved by the group.
+See [requirements traceability](docs/REQUIREMENTS_TRACEABILITY.md) for all eight staff and seven customer functionality questions. The shared Drive submissions are mirrored in [Product Backlog](docs/PRODUCT_BACKLOG.md) and [User Stories](docs/USER_STORIES.md) (13 entries each). The previously expanded 28-item GitHub plans remain separately in [draft backlog](docs/planning-drafts/EXPANDED_PRODUCT_BACKLOG.md) and [draft stories](docs/planning-drafts/EXPANDED_USER_STORIES.md). See [final-project assignment guide](docs/FINAL_PROJECT_GUIDE.md). Sprint assignments need review: the Drive backlog uses sprint numbers 1–5, but the rubric requires planning for two sprints.
 
 **Important:** The starter skeleton is not the completed restaurant API. The backlog and user stories describe work the group still needs to implement.
 
 ## November 2026 TA submission corrections
 
-Elijah Jones requested that the product backlog and user stories also be stored in the course team Google Drive folder and that the final-project attendance-log dates be corrected to actual class dates before the group replies to confirm completion. His Canvas comment names **Team17**, although this repository and his attendance email say **Team18**. See the [TA correction checklist](docs/TA_SUBMISSION_CORRECTIONS.md) for the exact requests, source-document links, and unresolved actions. **Neither a Drive upload nor an attendance-date correction has been confirmed just by adding this checklist.**
+Elijah Jones requested that the product backlog and user stories also be stored in the course team Google Drive folder and that the final-project attendance-log dates be corrected to actual class dates before the group replies to confirm completion. His Canvas comment names **Team17**, although this repository and his attendance email say **Team18**. See the [TA correction checklist](docs/TA_SUBMISSION_CORRECTIONS.md) for the exact requests, source-document links, and unresolved actions. The existing Drive folder already contains both submissions. The Fall attendance log now has Fall 2026 calendar-week ranges and has been exported to this repository; actual class/meeting dates and attendance still require verification before confirming completion.
 
 ## Shared Google Drive deliverables
 
@@ -78,7 +78,7 @@ The group's shared folder is [ITSC3155-001-Fa26-Team18](https://drive.google.com
 - [Sprint Backlog (Google Sheets)](https://docs.google.com/spreadsheets/d/1Xh8OHZX6PqycxhD6w2Z69WPOwJHFp4rtIOeOsTLl3J8/edit)
 - [Attendance Log (Google Sheets)](https://docs.google.com/spreadsheets/d/1D5av7iikflAe_fO7YfqbMVjsMBTg8VYjPmoSQ_oEy9E/edit)
 
-The Google Sheets are the group's shared submission-facing documents; the Markdown files in `docs/` are expanded draft planning references and may not have identical story counts, sprint assignments, or estimates. Coordinate any changes to shared backlog priorities with the team before treating a GitHub draft as final.
+The Google Sheets are the group's shared submission-facing documents; the primary Markdown files in `docs/` mirror the current Drive submissions. Earlier expanded plans are archived in `docs/planning-drafts/`. Coordinate any changes to shared backlog priorities with the team before treating a GitHub draft as final.
 
 **Attendance:** Use the **Attendance Log (Fall Dates)** tab for the Fall 2026 project. Verify class dates and group-meeting dates against the course schedule and meeting records, then record actual attendance; do not infer attendance from the calendar. The Spring tab remains untouched as an archive/template.
 
