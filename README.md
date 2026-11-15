@@ -65,6 +65,10 @@ See [requirements traceability](docs/REQUIREMENTS_TRACEABILITY.md) for all eight
 
 **Important:** The starter skeleton is not the completed restaurant API. The backlog and user stories describe work the group still needs to implement.
 
+## November 2026 TA submission corrections
+
+Elijah Jones requested that the product backlog and user stories also be stored in the course team Google Drive folder and that the final-project attendance-log dates be corrected to actual class dates before the group replies to confirm completion. His Canvas comment names **Team17**, although this repository and his attendance email say **Team18**. See the [TA correction checklist](docs/TA_SUBMISSION_CORRECTIONS.md) for the exact requests, source-document links, and unresolved actions. **Neither a Drive upload nor an attendance-date correction has been confirmed just by adding this checklist.**
+
 ## Group setup
 
 The repository owner should invite group members, the professor and TAs at **Settings → Collaborators and teams → Add people**, using the GitHub usernames supplied by the course. Invited members must accept their invitations. Each member should clone the repository and make their own commits.
