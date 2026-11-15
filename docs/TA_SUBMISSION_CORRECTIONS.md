@@ -18,7 +18,8 @@
 - [x] Identify existing shared Team 18 Google Drive folder. Confirmed its backlog and user-story files are already inside; required course staff access is not independently verified.
 - [x] Verify shared Drive backlog and user stories are present; sync their GitHub Markdown mirrors while preserving the expanded drafts.
 - [x] Update the Fall 2026 attendance tab with calendar-week ranges and three names already recorded on the Spring tab, leaving attendance values untouched.
-- [ ] Verify week ranges and actual class/weekly group meeting dates against course records; enter real dates only, and verify actual attendance.
+- [x] Label regular Monday/Wednesday class dates for Oct 26–Dec 2 from the user's confirmed class schedule (2:30–3:45 PM, CHHS 376); mark November 25 Thanksgiving break and December 2 final class day per the university academic calendar.
+- [ ] Verify any course-specific cancellations, enter the *actual* weekly group meeting dates, and independently confirm attendance. Victor reported missing both November 9 and November 11 classes; those two checkboxes remain unchecked.
 - [x] Export the updated shared Google Sheet to .xlsx and synchronize the repository attendance workbook.
 - [ ] Verify that Canvas has the required submission or resubmit it there if necessary.
 - [ ] Reply-all to Elijah's November 13 email **after** the corrections are complete. Do not confirm completion before checking and saving the actual workbook.
