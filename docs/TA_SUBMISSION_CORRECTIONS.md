@@ -15,12 +15,14 @@
 ## Action items
 
 - [ ] **Verify team-folder name with Elijah:** His November 11 comment says **Team17**, but the repository and November 13 group email identify **Team18**. Do not silently rename Team 18 materials to Team 17.
-- [ ] Create or identify the correct team Google Drive folder, with access as required by the course.
-- [ ] Add copies of the existing backlog and user stories to that Drive folder, keeping the GitHub versions.
-- [ ] Open the original attendance workbook, compare every meeting-date header/entry with the Fall 2026 ITSC-3155-001 course schedule, and correct only mismatching dates. Keep attendance, formulas, formatting, and other records intact.
-- [ ] Upload the corrected attendance file wherever the course expects the attendance log to be submitted (Canvas/Drive/GitHub as applicable).
+- [x] Identify existing shared Team 18 Google Drive folder. Confirmed its backlog and user-story files are already inside; required course staff access is not independently verified.
+- [x] Verify shared Drive backlog and user stories are present; sync their GitHub Markdown mirrors while preserving the expanded drafts.
+- [x] Update the Fall 2026 attendance tab with calendar-week ranges and three names already recorded on the Spring tab, leaving attendance values untouched.
+- [ ] Verify week ranges and actual class/weekly group meeting dates against course records; enter real dates only, and verify actual attendance.
+- [x] Export the updated shared Google Sheet to .xlsx and synchronize the repository attendance workbook.
+- [ ] Verify that Canvas has the required submission or resubmit it there if necessary.
 - [ ] Reply-all to Elijah's November 13 email **after** the corrections are complete. Do not confirm completion before checking and saving the actual workbook.
 
 ## Important limitations
 
-The class schedule and verified meeting dates are not supplied in this repository. The existing workbook should not be edited by guessing a Monday/Wednesday/Friday pattern or replacing dates with today's date. These checklist items are **not** evidence the files were uploaded, the log changed, or Elijah was notified.
+The calendar-week headings have been added, but exact class dates, weekly group meeting dates, and actual attendance have not been verified. Do not infer attendance. The spreadsheet and repository were updated, but Canvas submission and any email reply to Elijah remain unconfirmed.
