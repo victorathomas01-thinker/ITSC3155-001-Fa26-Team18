@@ -1,11 +1,10 @@
-from . import orders, order_details, recipes, sandwiches, resources
+"""Import all models before metadata.create_all so FKs resolve together.
 
-from ..dependencies.database import engine
-
+Part 2: create_all creates missing tables in an EMPTY database. It does not
+alter existing MySQL tables; use migrations for pre-existing deployments.
+"""
+from ..dependencies.database import Base, engine
+from . import customers, promotions, orders, sandwiches, resources, recipes, order_details, payments, reviews
 
 def index():
-    orders.Base.metadata.create_all(engine)
-    order_details.Base.metadata.create_all(engine)
-    recipes.Base.metadata.create_all(engine)
-    sandwiches.Base.metadata.create_all(engine)
-    resources.Base.metadata.create_all(engine)
+    Base.metadata.create_all(bind=engine)
