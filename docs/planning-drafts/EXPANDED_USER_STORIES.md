@@ -1,6 +1,6 @@
 # Team 18 — User Stories and Acceptance Criteria
 
-Project: **Online Restaurant Ordering System (OROS)**. This is a readable companion to the completed **User Stories.xlsx** professor template. All stories are planned, not implemented. See [Product Backlog](PRODUCT_BACKLOG.md).
+Project: **Online Restaurant Ordering System (OROS)**. This is a readable companion to the completed **User Stories.xlsx** professor template. All stories are planned, not implemented. See [Product Backlog](../../part-1/PRODUCT_BACKLOG.md).
 
 ### US-01 — Configure MySQL persistence (PB-01)
 

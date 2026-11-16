@@ -2,7 +2,7 @@
 
 **Source of truth:** [Team 18 User Stories Google Sheet](https://docs.google.com/spreadsheets/d/1uzWiHTu5QqZx0JWaxpNe2GN1yB5FGH4wp2QmPI5VWyQ/edit).
 
-This table mirrors the existing shared submission spreadsheet as read on November 15, 2026. Preserve the Drive version as the official shared document. The earlier, more expansive GitHub planning material is archived at [EXPANDED_USER_STORIES.md](planning-drafts/EXPANDED_USER_STORIES.md). No requirements or sprint allocations have been independently approved or rewritten here.
+This table mirrors the existing shared submission spreadsheet as read on November 15, 2026. Preserve the Drive version as the official shared document. The earlier, more expansive GitHub planning material is archived at [EXPANDED_USER_STORIES.md](../docs/planning-drafts/EXPANDED_USER_STORIES.md). No requirements or sprint allocations have been independently approved or rewritten here.
 
 | ID | Feature | As a | I want to | So that | Final Story | Priority | Story Points |
 | --- | --- | --- | --- | --- | --- | --- | --- |
