@@ -6,6 +6,13 @@
 
 This repository started from the professor's [official FinalProject code skeleton](https://github.com/samfallahian/ITSC3155-Assignments/tree/main/FinalProject), with all source files imported into the repository root.
 
+## Part 2 — Software and Database Design
+
+- **Three design diagrams** — `Team18_Part2_Three_Design_Diagrams.pdf` is a separate file. It covers the API architecture, database relationships, and guest checkout through fulfillment.
+- **Database implementation** — See the [design notes and table map](docs/PART2_DATABASE_DESIGN.md), [SQLAlchemy models](api/models/), [Pydantic schemas](api/schemas/), and [model loader](api/models/model_loader.py).
+- **Team planning** — See the [Product Backlog](docs/PRODUCT_BACKLOG.md) and [User Stories](docs/USER_STORIES.md), which mirror the team's shared Google Sheets linked below.
+- **Local verification** — API startup created nine tables, nine primary keys, and ten foreign keys in a fresh MySQL database. Swagger and OpenAPI responded successfully, and pytest passed. See [Run the API and test](#run-the-api-and-test) to repeat the checks.
+
 ## Clone the project
 
 ```bash
