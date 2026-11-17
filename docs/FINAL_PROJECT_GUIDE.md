@@ -9,7 +9,7 @@
 - GitHub (5): repo link, members and TA added, code skeleton, conventional commits.
 - Product backlog (5): planned features and priorities.
 - User stories (5): requirements from staff/customer roles.
-- Current submission mirrors: [product backlog](PRODUCT_BACKLOG.md), [user stories](USER_STORIES.md). Their Google Sheets originals live in [Team 18 Drive](https://drive.google.com/drive/folders/1i6folBxKi0tPjLkSZ_BWoZdFpbLO8ydv).
+- Current submission mirrors: [product backlog](../part-1/PRODUCT_BACKLOG.md), [user stories](../part-1/USER_STORIES.md). Their Google Sheets originals live in [Team 18 Drive](https://drive.google.com/drive/folders/1i6folBxKi0tPjLkSZ_BWoZdFpbLO8ydv).
 
 ## Phase 2 — Software and database design (20 points)
 

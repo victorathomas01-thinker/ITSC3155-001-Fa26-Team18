@@ -7,8 +7,8 @@
 
 ## Existing project artifacts
 
-- [Product backlog](PRODUCT_BACKLOG.md)
-- [User stories and acceptance criteria](USER_STORIES.md)
+- [Product backlog](../part-1/PRODUCT_BACKLOG.md)
+- [User stories and acceptance criteria](../part-1/USER_STORIES.md)
 - [Requirements traceability](REQUIREMENTS_TRACEABILITY.md)
 - [Attendance log (repository root)](../Copy%20of%20Final%20Project%20Attendance%20Log%20-%20Template.xlsx)
 

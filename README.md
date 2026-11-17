@@ -6,12 +6,11 @@
 
 This repository started from the professor's [official FinalProject code skeleton](https://github.com/samfallahian/ITSC3155-Assignments/tree/main/FinalProject), with all source files imported into the repository root.
 
-## Part 2 — Software and Database Design
+## Project deliverables
 
-- **Three design diagrams** — `Team18_Part2_Three_Design_Diagrams.pdf` is a separate file. It covers the API architecture, database relationships, and guest checkout through fulfillment.
-- **Database implementation** — See the [design notes and table map](docs/PART2_DATABASE_DESIGN.md), [SQLAlchemy models](api/models/), [Pydantic schemas](api/schemas/), and [model loader](api/models/model_loader.py).
-- **Team planning** — See the [Product Backlog](docs/PRODUCT_BACKLOG.md) and [User Stories](docs/USER_STORIES.md), which mirror the team's shared Google Sheets linked below.
-- **Local verification** — API startup created nine tables, nine primary keys, and ten foreign keys in a fresh MySQL database. Swagger and OpenAPI responded successfully, and pytest passed. See [Run the API and test](#run-the-api-and-test) to repeat the checks.
+- [Part 1 — Requirements Analysis and User Stories](part-1/) contains the product backlog, user stories, and shared Sheets links.
+- [Part 2 — Software and Database Design](part-2/) contains the three-diagram PDF, database design notes, and links to the implementation and verification steps.
+- [Part 3 — Final Product](part-3/) lists upcoming deliverables.
 
 ## Clone the project
 
@@ -68,7 +67,7 @@ A [GitHub Actions smoke test](.github/workflows/ci.yml) also starts a disposable
 
 ## Project planning
 
-See [requirements traceability](docs/REQUIREMENTS_TRACEABILITY.md) for all eight staff and seven customer functionality questions. The shared Drive submissions are mirrored in [Product Backlog](docs/PRODUCT_BACKLOG.md) and [User Stories](docs/USER_STORIES.md) (13 entries each). The previously expanded 28-item GitHub plans remain separately in [draft backlog](docs/planning-drafts/EXPANDED_PRODUCT_BACKLOG.md) and [draft stories](docs/planning-drafts/EXPANDED_USER_STORIES.md). See [final-project assignment guide](docs/FINAL_PROJECT_GUIDE.md). Sprint assignments need review: the Drive backlog uses sprint numbers 1–5, but the rubric requires planning for two sprints.
+See [requirements traceability](docs/REQUIREMENTS_TRACEABILITY.md) for all eight staff and seven customer functionality questions. The shared Drive submissions are mirrored in [Product Backlog](part-1/PRODUCT_BACKLOG.md) and [User Stories](part-1/USER_STORIES.md) (13 entries each). The previously expanded 28-item GitHub plans remain separately in [draft backlog](docs/planning-drafts/EXPANDED_PRODUCT_BACKLOG.md) and [draft stories](docs/planning-drafts/EXPANDED_USER_STORIES.md). See [final-project assignment guide](docs/FINAL_PROJECT_GUIDE.md). Sprint assignments need review: the Drive backlog uses sprint numbers 1–5, but the rubric requires planning for two sprints.
 
 **Important:** The starter skeleton is not the completed restaurant API. The backlog and user stories describe work the group still needs to implement.
 
@@ -85,7 +84,7 @@ The group's shared folder is [ITSC3155-001-Fa26-Team18](https://drive.google.com
 - [Sprint Backlog (Google Sheets)](https://docs.google.com/spreadsheets/d/1Xh8OHZX6PqycxhD6w2Z69WPOwJHFp4rtIOeOsTLl3J8/edit)
 - [Attendance Log (Google Sheets)](https://docs.google.com/spreadsheets/d/1D5av7iikflAe_fO7YfqbMVjsMBTg8VYjPmoSQ_oEy9E/edit)
 
-The Google Sheets are the group's shared submission-facing documents; the primary Markdown files in `docs/` mirror the current Drive submissions. Earlier expanded plans are archived in `docs/planning-drafts/`. Coordinate any changes to shared backlog priorities with the team before treating a GitHub draft as final.
+The Google Sheets are the group's shared submission-facing documents; the primary Markdown files in `part-1/` mirror the current Drive submissions. Earlier expanded plans are archived in `docs/planning-drafts/`. Coordinate any changes to shared backlog priorities with the team before treating a GitHub draft as final.
 
 **Attendance:** Use the **Attendance Log (Fall Dates)** tab for the Fall 2026 project. Verify class dates and group-meeting dates against the course schedule and meeting records, then record actual attendance; do not infer attendance from the calendar. The Spring tab remains untouched as an archive/template.
 
