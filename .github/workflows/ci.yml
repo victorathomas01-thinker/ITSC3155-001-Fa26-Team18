@@ -7,6 +7,12 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      OROS_DB_HOST: 127.0.0.1
+      OROS_DB_PORT: "3306"
+      OROS_DB_NAME: sandwich_maker_api
+      OROS_DB_USER: root
+      OROS_DB_PASSWORD: rootroot
     services:
       mysql:
         image: mysql:8.0
